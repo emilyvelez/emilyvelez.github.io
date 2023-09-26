@@ -10,9 +10,9 @@ function App() {
         <MainProfile />
       </div>
       <div className="links">
-        <a href="https://open.spotify.com/user/y65wgcrr33sgyucv10xyjn5nx?si=1a1500d7c3bb4770">
+        {/* <a href="https://open.spotify.com/user/y65wgcrr33sgyucv10xyjn5nx?si=1a1500d7c3bb4770">
           <img src={spotify} alt="spotify logo"/>
-        </a>
+        </a> */}
       </div>
     </div>
   );
