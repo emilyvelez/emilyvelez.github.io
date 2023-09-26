@@ -5,6 +5,7 @@ import spotify from '../images/spotify.png';
 import uoft from '../images/uoft.png';
 import About from './about';
 import netflix from '../images/netflix.webp';
+import brainstation from '../images/brainstation.png';
 
 function MainProfile(props) {
     let experiences = [
@@ -37,6 +38,19 @@ function MainProfile(props) {
     ];
 
     let education = [
+        {
+            school_company_name: "BrainStation",
+            img_src: brainstation,
+            title_position: "Data Analytics Certificate",
+            location: "Toronto, Canada",
+            start_date: "Sept 2023",
+            end_date: "Oct 2023",
+            points: [
+                "Point 1",
+                "Point 2",
+                "Point 3"
+            ],
+        },
         {
             school_company_name: "University of Toronto",
             img_src: uoft,
