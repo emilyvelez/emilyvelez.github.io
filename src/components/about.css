@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    align-items:end;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 12%;
+}
+
+.about img {
+    width: 400px;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 275px;
+}
+
+.about-content {
+    padding: 5%;
+}
+
+.highlight {
+    background-image: linear-gradient(to right, #3177FF, #A40CEC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
