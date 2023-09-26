@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.132442bb.css",
-    "main.js": "/static/js/main.e0ba6014.js",
+    "main.js": "/static/js/main.570b4c49.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/prof_pic.png": "/static/media/prof_pic.103d74a6562d38686752.png",
     "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
@@ -9,11 +9,11 @@
     "static/media/netflix.webp": "/static/media/netflix.7d6a924f59194d115ea7.webp",
     "index.html": "/index.html",
     "main.132442bb.css.map": "/static/css/main.132442bb.css.map",
-    "main.e0ba6014.js.map": "/static/js/main.e0ba6014.js.map",
+    "main.570b4c49.js.map": "/static/js/main.570b4c49.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132442bb.css",
-    "static/js/main.e0ba6014.js"
+    "static/js/main.570b4c49.js"
   ]
 }
