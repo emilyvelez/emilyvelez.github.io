@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.264c1367.css",
+    "main.js": "/static/js/main.f443fe64.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/prof_pic.png": "/static/media/prof_pic.103d74a6562d38686752.png",
+    "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
+    "static/media/netflix.webp": "/static/media/netflix.7d6a924f59194d115ea7.webp",
+    "index.html": "/index.html",
+    "main.264c1367.css.map": "/static/css/main.264c1367.css.map",
+    "main.f443fe64.js.map": "/static/js/main.f443fe64.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264c1367.css",
+    "static/js/main.f443fe64.js"
+  ]
+}
