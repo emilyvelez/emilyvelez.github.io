@@ -18,8 +18,17 @@
 }
 
 .highlight {
-    background-image: linear-gradient(to right, #3177FF, #A40CEC);
+    background-image: linear-gradient(to right, #3177FF 0%, #6d26d6 30%, #A40CEC  70%, #547ad9 100%);
+    background-size: 200% auto;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.9s ease-in-out;
+    animation: textclip 2s linear infinite;
 }
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
