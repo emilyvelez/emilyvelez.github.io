@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c04752e.css",
-    "main.js": "/static/js/main.d2ddf0bb.js",
+    "main.css": "/static/css/main.1d4c2a90.css",
+    "main.js": "/static/js/main.aba9d570.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/prof_pic.png": "/static/media/prof_pic.103d74a6562d38686752.png",
     "static/media/uoft.png": "/static/media/uoft.b0be7ab89862d94c05dd.png",
     "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
     "static/media/netflix.png": "/static/media/netflix.fe7f9dcaac04a26d0b3a.png",
     "static/media/letterboxd.png": "/static/media/letterboxd.ed173120a56c19c2e346.png",
-    "static/media/brainstation.png": "/static/media/brainstation.974b436ba12a98150151.png",
     "static/media/spotify.webp": "/static/media/spotify.9d3f95241d27a71d175f.webp",
     "static/media/github.png": "/static/media/github.3ab2b246c8fd83f37e8e.png",
+    "static/media/brainstation.webp": "/static/media/brainstation.3361aa7db051fe318176.webp",
     "index.html": "/index.html",
-    "main.1c04752e.css.map": "/static/css/main.1c04752e.css.map",
-    "main.d2ddf0bb.js.map": "/static/js/main.d2ddf0bb.js.map",
+    "main.1d4c2a90.css.map": "/static/css/main.1d4c2a90.css.map",
+    "main.aba9d570.js.map": "/static/js/main.aba9d570.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c04752e.css",
-    "static/js/main.d2ddf0bb.js"
+    "static/css/main.1d4c2a90.css",
+    "static/js/main.aba9d570.js"
   ]
 }
