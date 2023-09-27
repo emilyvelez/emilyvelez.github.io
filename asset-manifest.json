@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.132442bb.css",
-    "main.js": "/static/js/main.570b4c49.js",
+    "main.css": "/static/css/main.c5904120.css",
+    "main.js": "/static/js/main.133093be.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/prof_pic.png": "/static/media/prof_pic.103d74a6562d38686752.png",
+    "static/media/uoft.png": "/static/media/uoft.b0be7ab89862d94c05dd.png",
     "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
+    "static/media/netflix.png": "/static/media/netflix.fe7f9dcaac04a26d0b3a.png",
     "static/media/brainstation.png": "/static/media/brainstation.974b436ba12a98150151.png",
-    "static/media/netflix.webp": "/static/media/netflix.7d6a924f59194d115ea7.webp",
+    "static/media/spotify.webp": "/static/media/spotify.9d3f95241d27a71d175f.webp",
+    "static/media/github.png": "/static/media/github.3ab2b246c8fd83f37e8e.png",
     "index.html": "/index.html",
-    "main.132442bb.css.map": "/static/css/main.132442bb.css.map",
-    "main.570b4c49.js.map": "/static/js/main.570b4c49.js.map",
+    "main.c5904120.css.map": "/static/css/main.c5904120.css.map",
+    "main.133093be.js.map": "/static/js/main.133093be.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.132442bb.css",
-    "static/js/main.570b4c49.js"
+    "static/css/main.c5904120.css",
+    "static/js/main.133093be.js"
   ]
 }
