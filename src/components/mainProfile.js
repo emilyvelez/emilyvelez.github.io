@@ -97,7 +97,7 @@ function MainProfile(props) {
                     <h5>My Resume</h5>
                 </div>
                 <div className="download-button">
-                    <a href="resume2023.pdf"> 
+                    <a target="_blank" rel="noopenner" href="resume2023.pdf"> 
                         <img src={download} alt="spotify logo"/>
                     </a>
                 </div>

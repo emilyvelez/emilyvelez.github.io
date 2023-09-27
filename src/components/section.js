@@ -51,8 +51,8 @@ function Section(props) {
                         ${(data.points).map((point, index) => {
                             return (
                                 `<li key=${index}>${point}</li>`
-                            )
-                        })}
+                            );
+                        }).join('')}
                     </ul>
                 </div>
         `;

@@ -84,6 +84,8 @@
     font-family: mainFont, sans-serif;
     overflow: scroll;
     font-size: larger;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 @media screen and (max-width: 1200px) {
