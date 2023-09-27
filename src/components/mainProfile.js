@@ -8,8 +8,11 @@ import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.png';
 import fccf from '../images/fccf.png';
 import download from '../images/download.png';
-
+import letterboxd from '../images/letterboxd.png';
+import hand from '../images/hand.png';
 import './about.css';
+import click from '../images/click.png';
+
 function MainProfile(props) {
     let experiences = [
         {
@@ -71,27 +74,38 @@ function MainProfile(props) {
 
     let projects = [
         {
-
+            school_company_name: "",
+            img_src: letterboxd,
+            title_position: "Letterboxd Review Data Analysis",
+            location: "Toronto, Canada",
+            start_date: "Sept 2023",
+            end_date: "Pres",
+            points: [
+                "Point 1",
+                "Point 2",
+                "Point 3"
+            ],
         },
     ];
 
     return (
         <div className="outer-div">
-            <h2>Hola, I'm <span className="highlight">Emily Marie Velez</span></h2>
+            <h2>Hola, I'm <span className="highlight">Emily Marie Vélez</span>  <img src={hand} alt="hand"/></h2> 
             <About/>
             <div className="resume">
                 <div>
                     <h5>My Resume</h5>
                 </div>
                 <div className="download-button">
-                    <a rel="noopenner" target="_target" href="resume2023.pdf"> 
+                    <a href="resume2023.pdf"> 
                         <img src={download} alt="spotify logo"/>
                     </a>
                 </div>
             </div>
-            <Section title="Experiences" data={experiences}/>
-            <Section title="Education" data={education}/>
-            {/*<Section title="Projects" data={projects}/> */}
+            {/* <img src={click} alt="click"/> */}
+            <Section title="My Experiences" data={experiences}/>
+            <Section title="My Background" data={education}/>
+            <Section title="What I've Been Working On" data={projects}/>
         </div>
     )
 }

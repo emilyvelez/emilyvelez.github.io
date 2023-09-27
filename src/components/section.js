@@ -51,10 +51,10 @@ function Section(props) {
 
         modal.style.zIndex = "2";
         modal.style.position = "fixed";
-        modal.style.height = "50%";
-        modal.style.width = "50%";
-        modal.style.top = "25%";
-        modal.style.left = "25%";
+        modal.style.height = "70%";
+        modal.style.width = "70%";
+        modal.style.top = "15%";
+        modal.style.left = "15%";
         modal.style.backgroundColor = "white";
         modal.style.borderRadius = "12px";
         modal.style.padding = "20px";
@@ -72,7 +72,7 @@ function Section(props) {
 
     return (
         <div className="section">
-            <h5>My {props.title}</h5>
+            <h5>{props.title}</h5>
             <div className="section-content">
                 {props.data.map((item, index) => {
                     return (
@@ -86,9 +86,9 @@ function Section(props) {
                             <div>
                                 {item.title_position}   
                             </div>
-                            <div>
+                            {/* <div>
                                 {item.location}
-                            </div>
+                            </div> */}
                             <div>
                                 {item.start_date} - {item.end_date}
                             </div>
