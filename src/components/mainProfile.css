@@ -2,3 +2,29 @@
     padding: 1% 5%;
     font-size: 48px;
 }
+
+.resume {
+    margin-top: 10%;
+    font-family: mainFont, sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    align-items: center;
+}
+
+/* align text to the middle */
+.resume-text {
+    padding-right: 15px;
+}
+.download-button { 
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 125px;
+    height: 125px;
+    margin-left: 5%;
+}
+
+.download-button img {
+    width: 100%;
+    height: 100%;
+}

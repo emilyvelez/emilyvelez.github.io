@@ -1,25 +1,28 @@
 import React from 'react';
 import './mainProfile.css';
 import Section from './section';
-import spotify from '../images/spotify.png';
+import spotify from '../images/spotify.webp';
 import uoft from '../images/uoft.png';
 import About from './about';
-import netflix from '../images/netflix.webp';
+import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.png';
+import fccf from '../images/fccf.png';
+import download from '../images/download.png';
 
+import './about.css';
 function MainProfile(props) {
     let experiences = [
         {
-            school_company_name: "Spotify",
-            img_src: spotify,
-            title_position: "Data Analyst",
-            location: "New York, NY",
-            start_date: "June 2019",
-            end_date: "Pres",
+            school_company_name: "FCCF",
+            img_src: fccf,
+            title_position: "Senior Web Technician ",
+            location: "Toronto, ON",
+            start_date: "April 2020",
+            end_date: "April 2022",
             points: [
-                "Point 1",
-                "Point 2",
-                "Point 3"
+                "Excelled in organizing and facilitating full-day professional meetings on various conferencing platforms, providing seamless technical support to clients throughout the day",
+                "Proactively identified and resolved technical issues, showcasing independent problem-solving abilities without needing explicit instructions",
+                "Demonstrated strong verbal and written communication skills, ensuring clear and effective communication with clients during online meetings, legal hearings, webinars, and other virtual events"
             ],
         },
         {
@@ -70,15 +73,22 @@ function MainProfile(props) {
         {
 
         },
-        {
-
-        }
     ];
 
     return (
         <div className="outer-div">
-            <h2>Hola, I'm Emily Marie Velez</h2>
+            <h2>Hola, I'm <span className="highlight">Emily Marie Velez</span></h2>
             <About/>
+            <div className="resume">
+                <div>
+                    <h5>My Resume</h5>
+                </div>
+                <div className="download-button">
+                    <a rel="noopenner" target="_target" href="resume2023.pdf"> 
+                        <img src={download} alt="spotify logo"/>
+                    </a>
+                </div>
+            </div>
             <Section title="Experiences" data={experiences}/>
             <Section title="Education" data={education}/>
             {/*<Section title="Projects" data={projects}/> */}

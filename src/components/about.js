@@ -8,7 +8,7 @@ function About(props) {
             <div><img src={prof_pic} alt="profile pic"/></div>
             <div className="about-content">
                 I'm a 
-                <span className="highlight"> Data Analyst </span> 
+                Data Analyst
                 from Toronto, Canada
             </div>
         </div>
