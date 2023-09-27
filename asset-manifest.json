@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7d2e9eb.css",
-    "main.js": "/static/js/main.79b0a57f.js",
+    "main.css": "/static/css/main.1c04752e.css",
+    "main.js": "/static/js/main.d2ddf0bb.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/prof_pic.png": "/static/media/prof_pic.103d74a6562d38686752.png",
     "static/media/uoft.png": "/static/media/uoft.b0be7ab89862d94c05dd.png",
@@ -12,12 +12,12 @@
     "static/media/spotify.webp": "/static/media/spotify.9d3f95241d27a71d175f.webp",
     "static/media/github.png": "/static/media/github.3ab2b246c8fd83f37e8e.png",
     "index.html": "/index.html",
-    "main.b7d2e9eb.css.map": "/static/css/main.b7d2e9eb.css.map",
-    "main.79b0a57f.js.map": "/static/js/main.79b0a57f.js.map",
+    "main.1c04752e.css.map": "/static/css/main.1c04752e.css.map",
+    "main.d2ddf0bb.js.map": "/static/js/main.d2ddf0bb.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d2e9eb.css",
-    "static/js/main.79b0a57f.js"
+    "static/css/main.1c04752e.css",
+    "static/js/main.d2ddf0bb.js"
   ]
 }
