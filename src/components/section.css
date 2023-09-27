@@ -47,7 +47,7 @@
 
 .section-item img {
     width: 100px;
-    height: 100px;
+    height: 100%;
 }
 /* make popup similar to section-item */
 
@@ -86,6 +86,34 @@
     font-size: larger;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.color-layer {
+    background-color: #857ACBA1;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    z-index: 2;
+    position: fixed;
+    height: 70%;
+    width: 70%;
+    top: 15%;
+    left: 15%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
 }
 
 @media screen and (max-width: 1200px) {

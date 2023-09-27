@@ -1,5 +1,6 @@
 import React from "react";
 import "./section.css";
+import click from "../images/click.png";
 
 function Section(props) {
     let [showContent, setShowContent] = React.useState(false);
@@ -20,12 +21,6 @@ function Section(props) {
         let colorLayer = document.createElement("div");
         colorLayer.classList.add("color-layer");
         document.body.appendChild(colorLayer);
-        colorLayer.style.backgroundColor = "#857ACBA1";
-        colorLayer.style.zIndex = "1";
-        colorLayer.style.position = "fixed";
-        colorLayer.style.height = "100%";
-        colorLayer.style.width = "100%";
-        colorLayer.style.top = "0";
 
         // Add a modal to display the content
         let modal = document.createElement("div");
@@ -57,27 +52,12 @@ function Section(props) {
                 </div>
         `;
 
-        modal.style.zIndex = "2";
-        modal.style.position = "fixed";
-        modal.style.height = "70%";
-        modal.style.width = "70%";
-        modal.style.top = "15%";
-        modal.style.left = "15%";
-        modal.style.backgroundColor = "white";
-        modal.style.borderRadius = "12px";
-        modal.style.padding = "20px";
-        modal.style.textAlign = "left";
-        modal.style.color = "#000000";
-        modal.style.boxShadow = "0px 14px 14px rgba(0, 0, 0, 0.25)";
-
-
         // remove everything when the user clicks outside of the modal
         colorLayer.addEventListener("click", () => {
             colorLayer.remove();
             modal.remove();
         })
     }
-
     return (
         <div className="section">
             <h5>{props.title}</h5>

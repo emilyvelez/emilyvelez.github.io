@@ -5,7 +5,7 @@ import spotify from '../images/spotify.webp';
 import uoft from '../images/uoft.png';
 import About from './about';
 import netflix from '../images/netflix.png';
-import brainstation from '../images/brainstation.png';
+import brainstation from '../images/brainstation.webp';
 import fccf from '../images/fccf.png';
 import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
@@ -98,11 +98,10 @@ function MainProfile(props) {
                 </div>
                 <div className="download-button">
                     <a target="_blank" rel="noopenner" href="resume2023.pdf"> 
-                        <img src={download} alt="spotify logo"/>
+                        <img src={download} alt="download logo"/>
                     </a>
                 </div>
             </div>
-            {/* <img src={click} alt="click"/> */}
             <Section title="My Experiences" data={experiences}/>
             <Section title="My Background" data={education}/>
             <Section title="What I've Been Working On" data={projects}/>
