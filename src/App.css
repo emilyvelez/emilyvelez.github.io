@@ -7,6 +7,7 @@
   background-color: white;
   display: flex;
   flex-direction: row;
+  margin-bottom: 20%;
 }
 
 .mainProfile {
@@ -41,4 +42,20 @@
   width: 65px;
   height: 65px;
   padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+  .mainProfile {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 0;
+    position:fixed;
+  }
 }

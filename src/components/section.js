@@ -5,6 +5,14 @@ function Section(props) {
     let [showContent, setShowContent] = React.useState(false);
 
     let handleClick = (data) => {
+        // check screen size
+        if (window.innerWidth < 768) {
+            // if screen size is less than 768px, do nothing
+            // put a message on the screen to tell the user to click on the item
+            alert("This action is unavailable on Mobile. Please use a larger device to view more info about each section.");
+            return;
+        }
+
         console.log(data);
         setShowContent(!showContent);
 
@@ -80,16 +88,16 @@ function Section(props) {
                             <div>
                                 <img src={item.img_src} alt="company logo"/>
                             </div>
-                            <div>
+                            <div className="section-content-name">
                                 {item.school_company_name}
                             </div>
-                            <div>
+                            <div className="section-content-position">
                                 {item.title_position}   
                             </div>
                             {/* <div>
                                 {item.location}
                             </div> */}
-                            <div>
+                            <div className="section-content-dates">
                                 {item.start_date} - {item.end_date}
                             </div>
                         </div>

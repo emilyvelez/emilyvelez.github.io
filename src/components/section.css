@@ -85,3 +85,25 @@
     overflow: scroll;
     font-size: larger;
 }
+
+@media screen and (max-width: 1200px) {
+    .section-content-name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        padding: 0%;
+    }
+    .section-item {
+        padding: 5% 5%;
+        width: fit-content;
+    }
+    .section-content-position {
+        display: none;
+    }
+    .section-content-dates {
+        display: none;
+    }
+}
