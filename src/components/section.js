@@ -28,10 +28,10 @@ function Section(props) {
         document.body.appendChild(modal);
         modal.innerHTML = `
                 <div class="section-item-popup">
-                    <div>
+                    <div className="section-content-image">
                         <img src=${data.img_src} alt="company logo"/>
                     </div>
-                    <div>
+                    <div className="section-content-name">
                         ${data.school_company_name}
                     </div>
                     <div>
@@ -65,7 +65,7 @@ function Section(props) {
                 {props.data.map((item, index) => {
                     return (
                         <div className="section-item" key={index} onClick={() => handleClick(item)}>
-                            <div>
+                            <div className="section-content-image">
                                 <img src={item.img_src} alt="company logo"/>
                             </div>
                             <div className="section-content-name">

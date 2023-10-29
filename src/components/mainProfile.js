@@ -6,7 +6,7 @@ import uoft from '../images/uoft.png';
 import About from './about';
 import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.webp';
-import fccf from '../images/FCCF.png';
+import fccf from '../images/fccf.png';
 import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
 import hand from '../images/hand.png';

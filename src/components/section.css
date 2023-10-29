@@ -11,13 +11,12 @@
     background-color: #ffffff;
     scroll-behavior: smooth;
     /* margin: 0 auto; */
-    padding: 0;
     border: 0;
     font-family: mainFont, sans-serif;
 }
 
 .section-content :hover {
-    /* background-color: #CB98FF; */
+    background-color: #CB98FF;
     border-radius: 12px;
     transition: 0.4s ease-in-out;
     cursor: pointer;
@@ -45,6 +44,8 @@
 }
 
 .section-item img {
+    display: flex;
+    padding: 0.5em;
     width: 100px;
     height: 100%;
 }
@@ -66,6 +67,9 @@
 }
 
 .section-item-popup img {
+    border-radius: 12px;
+    display: flex;
+    padding: 0.5em;
     width: 70px;
     height: 70px;
 }
@@ -83,7 +87,6 @@
     font-family: mainFont, sans-serif;
     overflow: scroll;
     font-size: larger;
-    scrollbar-width: none;
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
 }
