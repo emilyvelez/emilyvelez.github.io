@@ -4,6 +4,7 @@ import MainProfile from './components/mainProfile';
 import spotify from './images/spotify.webp';
 import github from './images/github.png';
 import linkedin from './images/linkedin.png';
+import email from './images/email.png';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </a>
         <a href="https://github.com/emilyvelez" target="_blank" rel="noreferrer">
           <img src={github} alt="github logo"/>
+        </a>
+        <a href="mailto: emily.velez1234@gmail.com" target="_blank" rel="noreferrer">
+          <img src={email} alt="email logo"/>
         </a>
         <a href="https://open.spotify.com/user/y65wgcrr33sgyucv10xyjn5nx?si=1a1500d7c3bb4770" target="_blank" rel="noreferrer">
           <img src={spotify} alt="spotify logo"/>

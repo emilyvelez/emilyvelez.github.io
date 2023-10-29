@@ -4,7 +4,7 @@
 }
 .App {
   font-family: mainFont, sans-serif;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   margin-bottom: 20%;
@@ -15,7 +15,6 @@
   flex-direction: column;
   width: 95%;
   height: 100%;
-  background-color: #ffffff;
   scroll-behavior: smooth;
 }
 
@@ -25,7 +24,6 @@
   align-items: center;
   width: 5%;
   padding: 1% 1%;
-  background-color: #ffffff;
   position: fixed;
   right: 0;
   top: 0;

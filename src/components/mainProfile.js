@@ -11,7 +11,6 @@ import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
 import hand from '../images/hand.png';
 import './about.css';
-import click from '../images/click.png';
 
 function MainProfile(props) {
     let experiences = [

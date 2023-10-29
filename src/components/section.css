@@ -17,7 +17,7 @@
 }
 
 .section-content :hover {
-    background-color: #CB98FF;
+    /* background-color: #CB98FF; */
     border-radius: 12px;
     transition: 0.4s ease-in-out;
     cursor: pointer;
@@ -41,7 +41,6 @@
 
 /* No change */
 .section-item :hover {
-    background-color: #CB98FF;
     box-shadow: none;
 }
 
