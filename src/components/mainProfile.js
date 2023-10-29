@@ -6,7 +6,7 @@ import uoft from '../images/uoft.png';
 import About from './about';
 import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.webp';
-import fccf from '../images/fccf.png';
+import fccf from '../images/FCCF.png';
 import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
 import hand from '../images/hand.png';
@@ -16,31 +16,31 @@ import click from '../images/click.png';
 function MainProfile(props) {
     let experiences = [
         {
-            school_company_name: "FCCF",
+            school_company_name: "First Class Conferencing Facilitation",
             img_src: fccf,
-            title_position: "Senior Web Technician ",
+            title_position: "Senior Web Conference Technician",
             location: "Toronto, ON",
-            start_date: "April 2020",
-            end_date: "April 2022",
+            start_date: "June 2020",
+            end_date: "May 2022",
             points: [
                 "Excelled in organizing and facilitating full-day professional meetings on various conferencing platforms, providing seamless technical support to clients throughout the day",
                 "Proactively identified and resolved technical issues, showcasing independent problem-solving abilities without needing explicit instructions",
                 "Demonstrated strong verbal and written communication skills, ensuring clear and effective communication with clients during online meetings, legal hearings, webinars, and other virtual events"
             ],
         },
-        {
-            school_company_name: "Netflix",
-            img_src: netflix,
-            title_position: "Senior Data Analyst",
-            location: "New York, NY",
-            start_date: "June 2019",
-            end_date: "Pres",
-            points: [
-                "Point 1",
-                "Point 2",
-                "Point 3"
-            ],
-        },
+        // {
+        //     school_company_name: "Netflix",
+        //     img_src: netflix,
+        //     title_position: "Senior Data Analyst",
+        //     location: "New York, NY",
+        //     start_date: "June 2019",
+        //     end_date: "Pres",
+        //     points: [
+        //         "Point 1",
+        //         "Point 2",
+        //         "Point 3"
+        //     ],
+        // },
     ];
 
     let education = [
@@ -52,22 +52,22 @@ function MainProfile(props) {
             start_date: "Sept 2023",
             end_date: "Oct 2023",
             points: [
-                "Point 1",
-                "Point 2",
-                "Point 3"
+                "Applied data analysis strategies and problem-solving methodologies to real-world scenarios, mastering skills in data collection, cleaning, and interpretation",
+                "Developed expertise in SQL, relational databases, and data normalization techniques for in-depth exploratory data analysis and management",
+                "Conducted in-depth analysis of a Letterboxd dataset utilizing sentiment analysis techniques, revealing insights such as the dominance of drama, horror, and comedy genres, with drama being the most reviewed and horror experiencing exceptionally positive sentiments in 2022, showcasing expertise in natural language processing and statistical methods for data interpretation"
             ],
         },
         {
             school_company_name: "University of Toronto",
             img_src: uoft,
-            title_position: "Bachelors of Science in Neuroscience",
+            title_position: "Honours Bachelors of Science (HBSc.) in Neuroscience",
             location: "Toronto, Canada",
             start_date: "Sept 2014",
             end_date: "June 2018",
             points: [
-                "Point 1",
-                "Point 2",
-                "Point 3"
+                "Activities and societies:",
+                "Rock Climbing Club",
+                "Cinema Students Union"
             ],
         }
     ];
@@ -90,7 +90,7 @@ function MainProfile(props) {
 
     return (
         <div className="outer-div">
-            <h2>Hola, I'm <span className="highlight">Emily Marie Vélez</span>  <img src={hand} alt="hand"/></h2> 
+            <h2>Hola, I'm <span className="highlight">Emily Marie Velez</span>  <img src={hand} alt="hand"/></h2> 
             <About/>
             <div className="resume">
                 <div>
