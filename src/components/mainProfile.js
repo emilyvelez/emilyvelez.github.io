@@ -80,9 +80,9 @@ function MainProfile(props) {
             start_date: "Sept 2023",
             end_date: "Pres",
             points: [
-                "Point 1",
-                "Point 2",
-                "Point 3"
+                "Our project involved a comprehensive exploration of a dataset consisting of Letterboxd reviews, delving deep into the intricacies of user reviews and sentiments. This project not only highlighted our expertise in data interpretation but also provided profound insights into the intricate tapestry of film enthusiasts' sentiments and interactions, painting a vivid picture of the vibrant film community on Letterboxd language processing and statistical methods, we deciphered the subtle nuances of user engagements, unraveling the unique ways in which individuals interacted with each other's reviews. This project not only highlighted our expertise in data interpretation but also provided profound insights into the intricate tapestry of film enthusiasts' sentiments and interactions, painting a vivid picture of the vibrant film community on Letterboxd.",
+                // "Point 2",
+                // "Point 3"
             ],
         },
     ];
