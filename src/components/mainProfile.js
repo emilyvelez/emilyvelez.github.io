@@ -1,10 +1,10 @@
 import React from 'react';
 import './mainProfile.css';
 import Section from './section';
-import spotify from '../images/spotify.webp';
+// import spotify from '../images/spotify.webp';
 import uoft from '../images/uoft.png';
 import About from './about';
-import netflix from '../images/netflix.png';
+// import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.webp';
 import fccf from '../images/fccf.png';
 import download from '../images/download.png';

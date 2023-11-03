@@ -31,13 +31,10 @@ function Section(props) {
                     <div className="section-content-image">
                         <img src=${data.img_src} alt="company logo"/>
                     </div>
-                    <div className="section-content-name">
-                        ${data.school_company_name}
-                    </div>
-                    <div>
+                    <div className="section-content-position">
                         ${data.title_position}   
                     </div>
-                    <div>
+                    <div className="section-content-dates">
                         ${data.start_date} - ${data.end_date}
                     </div>
                 </div>
