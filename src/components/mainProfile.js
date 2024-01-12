@@ -19,7 +19,7 @@ function MainProfile(props) {
             img_src: fccf,
             title_position: "Senior Web Conference Technician",
             location: "Toronto, ON",
-            start_date: "June 2020",
+            start_date: "May 2020",
             end_date: "May 2022",
             points: [
                 "Excelled in organizing and facilitating full-day professional meetings on various conferencing platforms, providing seamless technical support to clients throughout the day",
@@ -59,10 +59,10 @@ function MainProfile(props) {
         {
             school_company_name: "University of Toronto",
             img_src: uoft,
-            title_position: "Honours Bachelors of Science (HBSc.) in Neuroscience",
+            title_position: "Honours Bachelors of Science in Neuroscience",
             location: "Toronto, Canada",
-            start_date: "Sept 2014",
-            end_date: "June 2018",
+            start_date: "2018",
+            end_date: "2023",
             points: [
                 "Activities and societies:",
                 "Rock Climbing Club",
@@ -77,8 +77,8 @@ function MainProfile(props) {
             img_src: letterboxd,
             title_position: "Letterboxd Review Data Analysis",
             location: "Toronto, Canada",
-            start_date: "Sept 2023",
-            end_date: "Pres",
+            start_date: "Oct 2023",
+            //end_date: "Pres",
             points: [
                 "Our project involved a comprehensive exploration of a dataset consisting of Letterboxd reviews, delving deep into the intricacies of user reviews and sentiments. This project not only highlighted our expertise in data interpretation but also provided profound insights into the intricate tapestry of film enthusiasts' sentiments and interactions, painting a vivid picture of the vibrant film community on Letterboxd language processing and statistical methods, we deciphered the subtle nuances of user engagements, unraveling the unique ways in which individuals interacted with each other's reviews. This project not only highlighted our expertise in data interpretation but also provided profound insights into the intricate tapestry of film enthusiasts' sentiments and interactions, painting a vivid picture of the vibrant film community on Letterboxd.",
                 // "Point 2",
@@ -101,9 +101,10 @@ function MainProfile(props) {
                     </a>
                 </div>
             </div>
+            <Section title="What I've Been Working On" data={projects}/>
             <Section title="My Experiences" data={experiences}/>
             <Section title="My Background" data={education}/>
-            <Section title="What I've Been Working On" data={projects}/>
+            
         </div>
     )
 }
