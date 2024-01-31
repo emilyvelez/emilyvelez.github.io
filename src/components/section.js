@@ -35,7 +35,9 @@ function Section(props) {
                         ${data.title_position}   
                     </div>
                     <div className="section-content-dates">
-                        ${data.start_date} - ${data.end_date}
+                        ${data.end_date ? 
+                        `${data.start_date} - ${data.end_date}` :
+                        data.start_date}
                     </div>
                 </div>
                 <div class="modal-content-points">
@@ -75,7 +77,9 @@ function Section(props) {
                                 {item.location}
                             </div> */}
                             <div className="section-content-dates">
-                                {item.start_date} - {item.end_date}
+                                {item.end_date ? 
+                                    `${item.start_date} - ${item.end_date}` :
+                                    item.start_date}
                             </div>
                         </div>
                     )
