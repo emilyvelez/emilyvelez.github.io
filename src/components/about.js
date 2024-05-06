@@ -7,7 +7,7 @@ function About(props) {
         <div className="about">
             <div><img src={prof_pic} alt="profile pic"/></div>
             <div className="about-content">
-            Toronto-based data enthusiast exploring new opportunities to leverage my skills and passion for data
+            Results-Driven Data Analyst with Startup Experience, Skilled in Customer Support
             </div>
         </div>
     )

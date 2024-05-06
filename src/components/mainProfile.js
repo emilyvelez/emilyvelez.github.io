@@ -77,7 +77,7 @@ function MainProfile(props) {
             img_src: letterboxd,
             title_position: "Letterboxd Review Data Analysis",
             location: "Toronto, Canada",
-            start_date: "Oct 2023",
+            start_date: "Jan 2024",
             //end_date: "Pres",
             points: [
                 "https://github.com/emilyvelez/LetterboxdProject",
