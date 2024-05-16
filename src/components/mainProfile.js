@@ -80,7 +80,7 @@ function MainProfile(props) {
             start_date: "Jan 2024",
             //end_date: "Pres",
             points: [
-                "https://github.com/emilyvelez/LetterboxdProject",
+                "<a href='https://github.com/emilyvelez/LetterboxdProject' target='_blank'>GitHub Project</a>",
                 // "Point 2",
                 // "Point 3"
             ],
