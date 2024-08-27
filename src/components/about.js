@@ -7,7 +7,7 @@ function About(props) {
         <div className="about">
             <div><img src={prof_pic} alt="profile pic"/></div>
             <div className="about-content">
-            Results-Driven Coordinator with Startup Experience, Skilled in Data Analysis and Stakeholder Liaising
+            From brain waves to bike lanes: Innovating urban mobility marketing @ Bike Share Toronto
             </div>
         </div>
     )

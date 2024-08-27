@@ -7,6 +7,7 @@ import About from './about';
 // import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.webp';
 import fccf from '../images/fccf.png';
+import shift from '../images/shiftlogo.png';
 import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
 import hand from '../images/hand.png';
@@ -14,6 +15,19 @@ import './about.css';
 
 function MainProfile(props) {
     let experiences = [
+        {
+            school_company_name: "Shift Transit",
+            img_src: shift,
+            title_position: "Marketing and Events Coordinator",
+            location: "Toronto, ON",
+            start_date: "July 2024",
+            end_date: "Present",
+            points: [
+                "MORE TO COME SOON...",
+                //"Proactively identified and resolved technical issues, showcasing independent problem-solving abilities without needing explicit instructions",
+               // "Demonstrated strong verbal and written communication skills, ensuring clear and effective communication with clients during online meetings, legal hearings, webinars, and other virtual events"
+            ],
+        },
         {
             school_company_name: "First Class Conferencing Facilitation",
             img_src: fccf,
@@ -89,7 +103,7 @@ function MainProfile(props) {
 
     return (
         <div className="outer-div">
-            <h2>Hola, I'm <span className="highlight">Emily Marie Velez</span>  <img src={hand} alt="hand"/></h2> 
+            <h2>Hola, I'm <span className="highlight">Emily Velez</span>  <img src={hand} alt="hand"/></h2> 
             <About/>
             <div className="resume">
                 <div>
@@ -101,8 +115,8 @@ function MainProfile(props) {
                     </a>
                 </div>
             </div>
+            <Section title="My Experience" data={experiences}/>
             <Section title="What I've Been Working On" data={projects}/>
-            <Section title="My Experiences" data={experiences}/>
             <Section title="My Background" data={education}/>
             
         </div>
