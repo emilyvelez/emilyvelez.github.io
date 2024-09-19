@@ -23,9 +23,9 @@ function MainProfile(props) {
             start_date: "July 2024",
             end_date: "Present",
             points: [
-                "MORE TO COME SOON...",
-                //"Proactively identified and resolved technical issues, showcasing independent problem-solving abilities without needing explicit instructions",
-               // "Demonstrated strong verbal and written communication skills, ensuring clear and effective communication with clients during online meetings, legal hearings, webinars, and other virtual events"
+                "Spearheaded transformative automation initiatives, engineering and deploying cutting-edge solutions that slashed manual workload by 13+ hours weekly and drove a 67% reduction in project costs",
+                "Conducted customer segmentation analysis using Excel and advanced data analytics techniques (e.g., clustering analysis), resulting in optimized email campaigns that generated 250% more clicks and identified high-value target audiences for strategic outreach",
+                "Collaborated cross-functionally with operations and customer service teams to drive business objectives and enhance operational efficiency"
             ],
         },
         {
@@ -58,19 +58,6 @@ function MainProfile(props) {
 
     let education = [
         {
-            school_company_name: "BrainStation",
-            img_src: brainstation,
-            title_position: "Data Analytics Certificate",
-            location: "Toronto, Canada",
-            start_date: "Sept 2023",
-            end_date: "Oct 2023",
-            points: [
-                "Applied data analysis strategies and problem-solving methodologies to real-world scenarios, mastering skills in data collection, cleaning, and interpretation",
-                "Developed expertise in SQL, relational databases, and data normalization techniques for in-depth exploratory data analysis and management",
-                "Conducted in-depth analysis of a Letterboxd dataset utilizing sentiment analysis techniques, revealing insights such as the dominance of drama, horror, and comedy genres, with drama being the most reviewed and horror experiencing exceptionally positive sentiments in 2022, showcasing expertise in natural language processing and statistical methods for data interpretation"
-            ],
-        },
-        {
             school_company_name: "University of Toronto",
             img_src: uoft,
             title_position: "Honours Bachelors of Science in Neuroscience",
@@ -81,6 +68,19 @@ function MainProfile(props) {
                 "Activities and societies:",
                 "Rock Climbing Club",
                 "Cinema Students Union"
+            ],
+        },
+        {
+            school_company_name: "BrainStation",
+            img_src: brainstation,
+            title_position: "Data Analytics Certificate",
+            location: "Toronto, Canada",
+            start_date: "Sept 2023",
+            end_date: "Oct 2023",
+            points: [
+                "Applied data analysis strategies and problem-solving methodologies to real-world scenarios, mastering skills in data collection, cleaning, and interpretation",
+                "Developed expertise in SQL, relational databases, and data normalization techniques for in-depth exploratory data analysis and management",
+                "Conducted in-depth analysis of a Letterboxd dataset utilizing sentiment analysis techniques, revealing insights such as the dominance of drama, horror, and comedy genres, with drama being the most reviewed and horror experiencing exceptionally positive sentiments in 2022, showcasing expertise in natural language processing and statistical methods for data interpretation"
             ],
         }
     ];
