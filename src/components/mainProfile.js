@@ -18,13 +18,13 @@ function MainProfile(props) {
         {
             school_company_name: "Shift Transit",
             img_src: shift,
-            title_position: "Marketing and Events Coordinator",
+            title_position: "Marketing Analyst",
             location: "Toronto, ON",
             start_date: "July 2024",
             end_date: "Present",
             points: [
-                "Spearheaded transformative automation initiatives, engineering and deploying cutting-edge solutions that slashed manual workload by 13+ hours weekly and drove a 67% reduction in project costs",
-                "Conducted customer segmentation analysis using Excel and advanced data analytics techniques (e.g., clustering analysis), resulting in optimized email campaigns that generated 250% more clicks and identified high-value target audiences for strategic outreach",
+                "Led automation initiatives, engineering and implementing solutions that reduced manual workload by 13+ hours weekly and decreased project costs by 67%, significantly improving operational efficiency",
+                "Conducted regular data pulls and analysis using Excel (VLOOKUP, PivotTables), to generate actionable insights, supporting data collection efforts and creating reports to identify trends and optimize processes",
                 "Collaborated cross-functionally with operations and customer service teams to drive business objectives and enhance operational efficiency"
             ],
         },
