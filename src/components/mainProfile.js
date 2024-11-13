@@ -18,7 +18,7 @@ function MainProfile(props) {
         {
             school_company_name: "Shift Transit",
             img_src: shift,
-            title_position: "Marketing Analyst",
+            title_position: "Marketing Analytics & User Acquisition Coordinator",
             location: "Toronto, ON",
             start_date: "July 2024",
             end_date: "Present",
@@ -71,9 +71,9 @@ function MainProfile(props) {
             ],
         },
         {
-            school_company_name: "BrainStation",
+            school_company_name: "Brainstation",
             img_src: brainstation,
-            title_position: "Data Analytics Certificate",
+            title_position: "Data Analytics\nCertificate",
             location: "Toronto, Canada",
             start_date: "Sept 2023",
             end_date: "Oct 2023",
