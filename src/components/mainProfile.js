@@ -24,7 +24,7 @@ function MainProfile(props) {
             start_date: "Feb 2025",
             end_date: "Present",
             points: [
-                "More to come!",
+                "More to come soon!",
                 //"Conducted regular data pulls and analysis using Excel (VLOOKUP, PivotTables), to generate actionable insights, supporting data collection efforts and creating reports to identify trends and optimize processes",
                 //"Collaborated cross-functionally with operations and customer service teams to drive business objectives and enhance operational efficiency"
             ],
@@ -103,7 +103,7 @@ function MainProfile(props) {
         {
             school_company_name: "",
             img_src: letterboxd,
-            title_position: "Letterboxd Review Data Analysis",
+            title_position: "Sentiment Analysis on Letterboxd Reviews",
             location: "Toronto, Canada",
             start_date: "Jan 2024",
             //end_date: "Pres",

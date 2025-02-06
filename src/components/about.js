@@ -8,7 +8,7 @@ function About(props) {
             <div><img src={prof_pic} alt="profile pic"/></div>
             <div className="about-content">
             From softlines to strategic lines:<br />
-            Crafting Campaign Excellence @ Home Depot Canada
+            Crafting Campaign Excellence <br /><span className="highlight_hd"> @ The Home Depot Canada</span>
             </div>
         </div>
     )
