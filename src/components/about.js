@@ -7,8 +7,8 @@ function About(props) {
         <div className="about">
             <div><img src={prof_pic} alt="profile pic"/></div>
             <div className="about-content">
-            From brain waves to bike lanes:<br />
-            Innovating urban mobility marketing @ Bike Share Toronto
+            From softlines to strategic lines:<br />
+            Crafting Campaign Excellence @ Home Depot Canada
             </div>
         </div>
     )

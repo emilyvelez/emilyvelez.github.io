@@ -89,8 +89,8 @@ function MainProfile(props) {
             img_src: brainstation,
             title_position: "Data Analytics\nCertificate",
             location: "Toronto, Canada",
-            start_date: "Sept 2023",
-            end_date: "Oct 2023",
+            start_date: "Oct 2023",
+            //end_date: "Oct 2023",
             points: [
                 "Applied data analysis strategies and problem-solving methodologies to real-world scenarios, mastering skills in data collection, cleaning, and interpretation",
                 "Developed expertise in SQL, relational databases, and data normalization techniques for in-depth exploratory data analysis and management",
