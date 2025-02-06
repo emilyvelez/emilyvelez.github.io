@@ -7,6 +7,7 @@ import About from './about';
 // import netflix from '../images/netflix.png';
 import brainstation from '../images/brainstation.webp';
 import fccf from '../images/fccf.png';
+import hdlogo from '../images/hdlogo.png';
 import shift from '../images/shiftlogo.png';
 import download from '../images/download.png';
 import letterboxd from '../images/letterboxd.png';
@@ -16,12 +17,25 @@ import './about.css';
 function MainProfile(props) {
     let experiences = [
         {
+            school_company_name: "The Home Depot",
+            img_src: hdlogo,
+            title_position: "Marketing Campaign Specialist",
+            location: "Toronto, ON",
+            start_date: "Feb 2025",
+            end_date: "Present",
+            points: [
+                "More to come!",
+                //"Conducted regular data pulls and analysis using Excel (VLOOKUP, PivotTables), to generate actionable insights, supporting data collection efforts and creating reports to identify trends and optimize processes",
+                //"Collaborated cross-functionally with operations and customer service teams to drive business objectives and enhance operational efficiency"
+            ],
+        },
+        {
             school_company_name: "Shift Transit",
             img_src: shift,
             title_position: "Marketing Analytics & User Acquisition Coordinator",
             location: "Toronto, ON",
-            start_date: "July 2024",
-            end_date: "Present",
+            start_date: "June 2024",
+            end_date: "Feb 2025",
             points: [
                 "Led automation initiatives, engineering and implementing solutions that reduced manual workload by 13+ hours weekly and decreased project costs by 67%, significantly improving operational efficiency",
                 "Conducted regular data pulls and analysis using Excel (VLOOKUP, PivotTables), to generate actionable insights, supporting data collection efforts and creating reports to identify trends and optimize processes",
@@ -31,10 +45,10 @@ function MainProfile(props) {
         {
             school_company_name: "First Class Conferencing Facilitation",
             img_src: fccf,
-            title_position: "Senior Web Conference Technician",
+            title_position: "Event & Digital Marketing Coordinator",
             location: "Toronto, ON",
             start_date: "May 2020",
-            end_date: "May 2022",
+            end_date: "May 2023",
             points: [
                 "Excelled in organizing and facilitating full-day professional meetings on various conferencing platforms, providing seamless technical support to clients throughout the day",
                 "Proactively identified and resolved technical issues, showcasing independent problem-solving abilities without needing explicit instructions",
